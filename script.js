@@ -8,7 +8,7 @@ const imgIcon = document.querySelector(".icon")
 
 formEle.addEventListener("submit", (e)=>{
     e.preventDefault()
-    // console.log(cityNameEle.value);
+    
     const cityValue = cityNameEle.value
 
     getWeatherData(cityValue)
