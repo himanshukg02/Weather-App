@@ -1,3 +1,4 @@
+
 const apiKey = "20da423906ccf27bec8c2d81c8f4a2eb"
 
 const weatherDataEle = document.querySelector(".weather-data")
@@ -46,6 +47,7 @@ async function getWeatherData(cityValue){
         weatherDataEle.querySelector(".temp").textContent = ""
         imgIcon.innerHTML = ""
         weatherDataEle.querySelector(".desc").textContent = "An Error Occurred!"
+        weatherDataEle.querySelector(".details").innerHTML = ""
 
     }
 
